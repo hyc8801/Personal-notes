@@ -6,6 +6,7 @@
 * git branch -r :查看远程分支
 * git branch -a :查看全部分支（远程的和本地的）
 * git branch -d <BranchName> 删除本地分支
+* git branch -vv  查看本地分支关联的远端分支
 
 ## 查看当前的远程库
 
