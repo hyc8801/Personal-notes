@@ -46,10 +46,11 @@ git push origin wy:wy
 * git diff <文件名>
 
 ## 查看提交历史日志
-*  git log 
+*  git log （按Q键退出）
 
 ## 合并分支
 * git merge <其他分支> 将 __其他分支__ 合并到当前分支
+* git cherry-pick <commit id>  将某次commit合并到当前分支  （commit id 可通过git log 查看）
 
 ## 版本回退
 * git reset --hard HEAD^    回退到上一版本
