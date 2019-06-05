@@ -50,7 +50,7 @@ git push origin wy:wy
 
 ## 合并分支
 * git merge <其他分支> 将 __其他分支__ 合并到当前分支
-* git cherry-pick <commit id>   
+* git cherry-pick  <commit id>   
   > 将某次commit合并到当前分支  （commit id 可通过git log 查看）
 
 ## 版本回退
