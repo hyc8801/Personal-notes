@@ -10,7 +10,9 @@
 
 ## 查看当前的远程库
 
-* git remote
+* git remote 查看远端仓库
+
+* git remote set-url origin [url]  修改远端仓库地址
 
 ## 切换分支命令
 
