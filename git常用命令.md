@@ -78,3 +78,10 @@ git push origin wy:wy
 2. 解决冲突
 3. git rebase --continue 继续
 4. 正常工作
+
+## 提交错误分支（远端仓库回滚）
+
+1. git reset --hard <commit-id>
+2. git push --force
+
+  > 本地撤销至某次提交，再强推至远端仓库，此方法慎用，会覆盖后面同事提交的代码
