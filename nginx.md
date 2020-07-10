@@ -17,7 +17,7 @@ nginx -T        # 查看当前nginx最终的配置
 nginx -t -c <配置路径>   # 检查配置是否有问题，如果已经在配置目录，则不需要-c
 ```
 
-`systemctl` 是Linx系统应用管理工具 `systemd` 的主命令。用于管理系统，我们也可以用它来对nginx进行管理
+`systemctl` 是 Linx 系统应用管理工具 `systemd` 的主命令。用于管理系统，我们也可以用它来对 nginx 进行管理
 
 ```
 systemctl start nginx   # 启动nginx
