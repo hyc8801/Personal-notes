@@ -9,6 +9,9 @@
   - [安装 java 环境](#安装-java-环境)
   - [安装 Jenkins[【参考】](https://www.jianshu.com/p/180fb11a5b96/)](#安装-jenkins参考httpswwwjianshucomp180fb11a5b96)
   - [配置 jenkins 任务](#配置-jenkins-任务)
+  - [配置中遇到的问题](#配置中遇到的问题)
+    - [一、 npm: command not found解决（环境变量无法获取）](#一-npm-command-not-found解决环境变量无法获取)
+    - [二、配置多个地址](#二配置多个地址)
 
 <!-- /TOC -->
 ## 常见名词/工具解析
@@ -109,3 +112,17 @@
 
 5. 构建 Jenkins 项目自动化流程
    演示：
+
+## 配置中遇到的问题
+
+### 一、 npm: command not found解决（环境变量无法获取）
+
+1. 确保服务器有安装node，执行`node --version`进行检查
+2. 查看系统环境变量 `echo $PATH`
+3. 将服务器的环境变量添加至jenkins中
+   jekins -> 系统管理 -> 系统配置 -> 全局属性 -> 环境变量 -> 新增
+   键： PATH     值：<第二步中查看的结果>
+
+### 二、配置多个地址
+
+1. 

@@ -136,7 +136,7 @@ str2="hello, "${name}""
 
 echo str1 str2
 
-# 单引号拼接
+# 单引号拼接（无效）
 str3='hello,${name}'
 str3='hello,'$name''
 ```
