@@ -82,6 +82,8 @@
   > --squash 扁平化合并 （忽略之前的 commit 记录）
 - git cherry-pick < commit id >
   > 将某次 commit 合并到当前分支 （commit id 可通过 git log 查看）
+- git cherry-pick --abort 
+  > 取消当前cherry-pick
 
 ## 版本回退
 
