@@ -14,6 +14,7 @@
   - [查看文件改动内容](#查看文件改动内容)
   - [查看提交历史日志](#查看提交历史日志)
   - [合并分支](#合并分支)
+  - [合并多个commit记录](#合并多个commit记录)
   - [版本回退](#版本回退)
   - [查看版本号](#查看版本号)
   - [储藏当前工作区状态](#储藏当前工作区状态)
@@ -84,6 +85,11 @@
   > 将某次 commit 合并到当前分支 （commit id 可通过 git log 查看）
 - git cherry-pick --abort 
   > 取消当前cherry-pick
+
+## 合并多个commit记录
+> git rebase -i --root <commitId>
+
+具体操作可参考[https://www.cnblogs.com/fanlina/p/8258722.html](https://www.cnblogs.com/fanlina/p/8258722.html)
 
 ## 版本回退
 
